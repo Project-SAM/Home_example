@@ -1,0 +1,37 @@
+.p-2 {
+  background-color: bisque;
+  margin: 0px 2px;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/* .item {
+  background-color: bisque;
+  margin: 0px 2px;
+} */
+
+/* .flex {
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid red;
+} */
+
+.item {
+  background-color: bisque;
+  /* width: 160px; */
+  /* height: 50px; */
+  margin: 5px;
+  border: 2px solid black;
+}
+
+.item:hover {
+    border: 2px solid skyblue;
+    cursor: pointer;
+}
+
+.card-body {
+text-align: center;
+}
